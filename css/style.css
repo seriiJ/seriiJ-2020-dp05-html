@@ -1,0 +1,95 @@
+
+<style>
+		html, header, body, h1, h2, img, p, ul, li, section footer{margin:0;
+			max-width: 100%
+		}
+		html{
+			scroll-behavior: smooth;
+			padding: 0;
+		}
+		header{height: 916px;
+				background-size: 100%;
+				margin: 0; 
+		}
+		body{margin: 0;
+		}
+		h1{
+			display: inline-block;
+			color: white;
+			margin-left: 100px;			
+		}
+		h2{
+			display: inline-block;
+			height: 60px;
+			width: 170px;
+			background: green;
+
+			margin-left: 250px;
+			color: white;
+			font-weight: 800;
+			font-size: 2.5em;
+		}
+		h3{margin-left: 450px;
+			margin-top: 30px;
+			margin-bottom: 10px; 
+			font-weight: 600;
+			font-size: 2.3em;
+
+		}
+		section{
+			position: center;
+			margin-bottom: 300px
+		}
+
+		p{ 
+		 
+			font-weight: 400; font-size: 1.25em;
+			line-height: 1.38; word-spacing: 0px; 
+			letter-spacing: -.99px; color: #000000;
+		}
+
+		nav{
+				
+				height: 44px;  
+				border-top: .5px solid lightgray;
+				color:white;
+				font-size: 1.5em;
+				height: 44px;
+				padding-left: 25px;
+				padding-top: 15px;
+				position: sticky;
+				z-index: 40;}
+		footer{
+
+		}
+
+		a:hover{transition: all .3s;
+				color: green;}	
+		.a{
+			display: inline-block;
+			margin: 0px;
+			color: white;
+			padding-left: 100px;
+			padding-top: 18px;
+			font-weight: 800;
+			font-size: 3.5em;
+			text-decoration: none;
+		}
+		.titleimg{background: url(../img/bg1.jpg);
+			background-size: cover; 
+			background-repeat: no-repeat;
+			background-attachment: fixed; 
+			max-width: 100%
+		}
+
+		#absol2{
+			position: absolute; 
+			top: 700px; left:100px;}
+		}
+		#absol3{
+			position: absolute; 
+			top: 550px; left:100px;}
+		}
+		.style1{margin-top: 200px}
+		
+</style>
